@@ -4,6 +4,13 @@ You can run this to get notification when slots show up for 18+ Age on the Cowin
 The code is closer to the system and sends an alert on the system itself intead of relaying it to mobile phones so its a bit faster than phone notifications. 
 The system needs to be on all that time when code is required to run and send alerts. 
 
+Steps to run in console:
+1. git clone git@github.com:shreshtha1106/cowin18-slots.git
+2. python3 PATH/cowin18-slots/script/cowin.py
+PATH is the path to the pulled cowin18-slots directories
+3. Enter district id if the district is not BBMP in Bangalore. How to fetch district id => 1. https://media.giphy.com/media/fKc75qEjcIBiBLem8D/giphy.gif
+                                                                                           2. https://gph.is/g/460bnAx
+
 To Run this you will need the following installed in your system:
 
 -> python3
