@@ -55,6 +55,7 @@ class SolutionByShreshtha:
                         if session['min_age_limit'] == 18 and session['available_capacity'] > 0:
                             self.sound(300, 1)
                             print("Available Slots:  " + str(session['available_capacity']))
+                            print("Date: " + str(session['date']))
                             print("Pincode:  " + str(centerData['pincode']))
                             print("Center Data")
                             print(json.dumps(centerData))
